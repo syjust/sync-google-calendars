@@ -1,0 +1,25 @@
+{
+  "prefix": "(EVENT PREFIX HERE if you want prefix each copied event with a message)",
+  "september-2018": "2018-09-01T00:00:00.000Z",
+  "timeMin": {
+    "_description": "Date ISO formated as (new Date()).toISOString() will",
+    "format": "YYYY-mm-ddTHH:MM:SS.mmmZ",
+    "iso": "{{september-2018}}"
+  },
+  "primary": {
+    "id": "primary",
+    "name": "PRIMARY CALENDAR"
+  },
+  "target": {
+    "id": "target-example@gmail.com",
+    "name": "TARGET CALENDAR"
+  },
+  "from": {
+    "id": "{{primary.id}}",
+    "name": "{{primary.name}}"
+  },
+  "to": {
+    "id": "{{target.id}}",
+    "name": "{{target.name}}"
+  }
+}
