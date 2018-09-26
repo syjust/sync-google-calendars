@@ -14,19 +14,22 @@ Installation
 
 clone the project then launch following commands into the project root path.
 
-`npm install googleapi@27 --save`
-
-`npm install mustache --save`
-
-From console.google.com :
-
-* Swith on th calendar api
-* Then, import your credentials.json
+```
+npm install googleapi@27 --save
+npm install mustache --save
+```
 
 Configuration
 ====
 
-`cp calendars.json-sample calendars.json`
+From console.google.com :
+
+* Swith on the calendar api
+* Then, import your credentials.json
+
+```
+cp calendars.json-sample calendars.json
+```
 
 Edit calendars.json with your prefered editor and set your own values for :
 
@@ -39,7 +42,9 @@ Note : you can use backreference according to Mustache.render allow it ({{ }}).
 Launch application
 ====
 
-`node app.js`
+```
+node app.js
+```
 
 When you launch application :
 
